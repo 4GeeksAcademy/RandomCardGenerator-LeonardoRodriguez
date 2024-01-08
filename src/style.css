@@ -1,1 +1,46 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  background-color: white;
+  height: 400px;
+  width: 280px;
+  margin: auto;
+  margin-top: 150px;
+  border: 2px solid black;
+}
+
+#cardType {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+#cardNumber {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+}
+
+#reverseCardType {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  transform: rotate(180deg);
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+#generateCardButton {
+  position: absolute;
+  bottom: 15%;
+  right: 44%;
+  background-color: red;
+  line-height: 20px;
+}
